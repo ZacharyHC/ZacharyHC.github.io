@@ -174,28 +174,13 @@ input[type=submit] {
 
 /* Blog Page */
 
-
-
-.blogimage {
-  height: calc(100% - 250px);
-  width: 400px;
-  display: block
-}
-#blog_one {
-  width: 100px;
-  height: 100px;
-  background-color: #8081e2;
-}
-
-
-
+/*Blog Card*/
 input[type='checkbox'] { 
   display: none; } 
-
 .expanding_blog { 
     margin: 1.2rem 0; 
 } 
-.lbl-toggle { 
+.expand_toggle { 
   display: block;   
   text-align: center;  
   color: rgb(243, 235, 235); 
@@ -203,22 +188,23 @@ input[type='checkbox'] {
   cursor: pointer; 
   border-radius: 7px; 
   transition: all 0.25s ease-out; 
+  width: 100px;
+  height: 25px;
 } 
-.lbl-toggle:hover { 
+.expand_toggle:hover { 
   color: rgb(94, 88, 88); 
 } 
-
-.toggle:checked + .lbl-toggle::before { 
+.toggle:checked + .expand_toggle::before { 
   transform: rotate(90deg) translateX(-3px); 
 } 
 .expand_blog_content { 
   max-height: 0px; 
   overflow: hidden; 
   transition: max-height .25s ease-in-out; 
-} .toggle:checked + .lbl-toggle + .expand_blog_content { 
+} .toggle:checked + .expand_toggle + .expand_blog_content { 
   max-height: 600px; 
 } 
-.toggle:checked+.lbl-toggle { 
+.toggle:checked+.expand_toggle { 
   
   border: 5px solid black;
 } 
@@ -228,6 +214,17 @@ input[type='checkbox'] {
 
   padding: 1rem 1rem; 
 } 
+.blog_card {
+  height: 500px;
+  width: 600px;
+  background-color: red;
+}
+.blog_photo {
+  height: 300px;
+  width: auto;
+}
+/*Blog Card*/
+
 
 @media only screen and (max-width: 768px) {
   .navitems li {
