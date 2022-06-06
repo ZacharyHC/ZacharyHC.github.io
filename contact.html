@@ -1,34 +1,55 @@
+
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="stylesheet" href="./styles.css">
-        <title>Portfolio</title>
-    </head>
-    <body>
-    <div class="title"><h1>John Smith</h1>
-    <nav class="navbar"></div>
-            <input type="checkbox" id="checkbox_toggle"/>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class=headbar>
+    <div><h1>Zachary Coster</h1></div>
+    <nav class="navbar">
+        <input type="checkbox" id="checkbox_toggle"/>
             <label for="checkbox_toggle">
-                <div class="box1"></div>
-                <div class="box2"></div>
-                <div class="box3"></div>
+                <div class="hamburger">
+                    <div class="box1"></div>
+                    <div class="box2"></div>
+                    <div class="box3"></div>
+                    </div>
             </label>
-            <section id="nav">
-                <div class="box">
-                    <a href="./index.html">Home</a>
-                    <a href="./about.html">About</a>
-                    <a href="./blog.html">Blog</a>
-                    <a href="./resume.html">Resume</a>
-                    <a href="./contact.html">Contact</a>
-                </div>
+            <section class="navitems">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./resume.html">Resume</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
             </section>
-        </nav>
-        <div class="pp"><img id="profilephoto" src="./face.jpg" alt="profilephoto"></div>
-        </article>
-    </body>
-    <footer>Foot</footer>
-</html>
+        </nav></div>
+        <div class="content">
+            <div class="textcontent"><h2>Like what you see?</h2>
+                <p>Reach out below to get in touch with me or check out my links to see more of my work!</p>
+                <form class="contactform">
 
+                    <label>Name</label>
+                    <input type="text">
+                
+                    <label>Email</label>
+                    <input type="text">
+                
+                    <label>Message</label>
+                    <input type="text">
+                
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        <div class="styledphoto"><img id="contactimage" src="./contactimage.jpg" alt="profilephoto"></div>
+    </div>
+
+    <footer><p>Footer</p>></footer>
+    </body>
+</html>
 
