@@ -1,15 +1,17 @@
-
 <!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
     <title>Portfolio</title>
-</head>
-<body>
+<header>
     <div class=headbar>
-    <div><h1>Zachary Coster</h1></div>
+        <div><h1><a href="./index.html">Portfolio</h1></a></div>
     <nav class="navbar">
         <input type="checkbox" id="checkbox_toggle"/>
             <label for="checkbox_toggle">
@@ -29,11 +31,14 @@
                 </ul>
             </section>
         </nav></div>
+</header>
+<body>
         <article id="resume_container">
         <h2>Professional Experience</h2>
-            <p>If you wish to contact me regarding any employment opportunities please do so <a class="linked_text" href="./contact.html">here.</a></p>
+            <p>To discuss any opportunities please reach me <a id="linked_text" href="./contact.html">here.</a></p>
+            <a class="download_box" href="./resume.pdf" download="resume">Download copy</a>
         <object class="pdf_display" data='./resume.pdf#toolbar=0' type='application/pdf' width="100%"></object>
-    <footer>Foot</footer>
+<footer>Foot</footer>
     </body>
 </html>
 
