@@ -12,11 +12,15 @@ footer {
   display: flex;
   justify-content: center;
 }
+
 #social_icons {
   height: auto;
   width: 210px;
   display: flex;
   background-color: rgb(255, 255, 255);
+}
+.social_icon {
+  background-color: white;
 }
 body {
   min-width: 100vw;
@@ -74,7 +78,7 @@ a:link {
   width: 30vw;
   object-fit: cover;
   border-radius: 20%;
-  filter: drop-shadow(0 0 3em #000);
+  filter: drop-shadow(0 0 3em rgb(243, 240, 240));
   border:  10px ridge black;
   background-color: rgb(0, 0, 0);
   overflow: hidden;
@@ -229,14 +233,20 @@ input[type=checkbox]:checked ~ section {
 #about_text {
   background-color: #3e3f3f9d;
   border-radius: 10%;
+  position: relative;
+  top: 200px;
 }
 
 .styled_photo2 {
   border: 15px ridge rgb(69, 88, 88);
   filter: drop-shadow(0 0 1em rgb(97, 99, 90));
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 20vw;
+  max-height: 20vw;
+  position: relative;
+  top: 150px;
 }
+
+
 
 /*About Page*/
 
@@ -272,6 +282,8 @@ input[type=checkbox]:checked ~ section {
   border: 2px solid black;
   padding: 20px;
   border-radius: 5%;
+  background-color: #14b163;
+  color: black;
   
 }
 .contactform label {
@@ -697,7 +709,7 @@ input[type='checkbox'] {
   .navitems {
     background-color: rgba(61, 31, 131, 0.966);
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     position: absolute;
     top: 80px;
     left: 0%;
