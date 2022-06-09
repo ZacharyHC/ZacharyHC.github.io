@@ -4,10 +4,19 @@
 }
 footer {
   bottom: 0;
+  height: 50px;
   width: 100%;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
-  background-color: #000;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+}
+#social_icons {
+  height: auto;
+  width: 210px;
+  display: flex;
+  background-color: rgb(255, 255, 255);
 }
 body {
   min-width: 100vw;
@@ -21,6 +30,7 @@ body {
 h2 {
   color: rgb(0, 0, 255);
   font-size: 3em;
+  z-index: -1;
 }
 
 .headbar {
@@ -97,6 +107,7 @@ img {
   flex-wrap: nowrap;
   position: relative;
   bottom: 20px;
+  z-index: -1;
 }
 .textcontent {
   display: flex;
@@ -107,6 +118,7 @@ img {
   text-align: justify;
   font-size: 1.5em;
   color: green;
+  z-index: -1;
 }
 
 a, a:visited, a:hover, a:active {
@@ -220,8 +232,8 @@ input[type=checkbox]:checked ~ section {
 }
 
 .styled_photo2 {
-  border: 15px solid rgb(0, 0, 0);
-  border-radius: 100%;
+  border: 15px ridge rgb(69, 88, 88);
+  filter: drop-shadow(0 0 1em rgb(97, 99, 90));
   max-width: 400px;
   max-height: 400px;
 }
@@ -638,13 +650,42 @@ input[type='checkbox'] {
   top: 80px;
   left: 60%;
   }
-
-.textcontent {
-  width: 100vw;
-}
 .contactform {
   width: 100%;
   display: inline-block; 
+}
+.content {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  position: relative;
+  bottom: 20px;
+  z-index: -1;
+}
+.textcontent {
+  display: flex;
+  width: 85vw;
+  flex-direction: column;
+  align-content: center;
+  align-items: flex-start;
+  text-align: left;
+  font-size: 1.5em;
+  color: green;
+  z-index: -1;
+}
+.textcontent h2 {
+  line-height: 1.2;
+  text-align: center;
+  padding-top: 10%;
+}
+#landing_photo, #profilephoto {
+  width: 50vw;
+  height: auto;
+  border-radius: 20%;
+  position: relative;
 }
 }
 
