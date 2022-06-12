@@ -170,7 +170,7 @@ label {
   background-color: rgb(255, 255, 255);
 }
 section {
-  background-color: rgb(255, 255, 255)
+  background-color: rgb(255, 255, 255);
   text-align: center;
   display: none;
   position: fixed;
@@ -353,7 +353,7 @@ input[type='checkbox'] {
   top: 10px;
   position: relative;
   left: 50%;
-  transform: translate(-50%,);
+  transform: translate(-50%);
 } 
 .expand_toggle:hover { 
   color: rgb(94, 88, 88); 
@@ -428,7 +428,7 @@ input[type='checkbox'] {
   top: 10px;
   position: relative;
   left: 50%;
-  transform: translate(-50%,);
+  transform: translate(-50%);
 } 
 .expand_toggle2:hover { 
   color: rgb(94, 88, 88); 
@@ -507,7 +507,7 @@ input[type='checkbox'] {
   top: 10px;
   position: relative;
   left: 50%;
-  transform: translate(-50%,);
+  transform: translate(-50%);
 } 
 .expand_toggle3:hover { 
   color: rgb(94, 88, 88); 
@@ -586,7 +586,7 @@ input[type='checkbox'] {
   top: 10px;
   position: relative;
   left: 50%;
-  transform: translate(-50%,);
+  transform: translate(-50%);
 } 
 .expand_toggle4:hover { 
   color: rgb(94, 88, 88); 
@@ -665,7 +665,7 @@ input[type='checkbox'] {
   top: 10px;
   position: relative;
   left: 50%;
-  transform: translate(-50%,);
+  transform: translate(-50%);
 } 
 .expand_toggle5:hover { 
   color: rgb(94, 88, 88); 
@@ -830,7 +830,7 @@ input[type='checkbox'] {
     align-items: center;
   }
   }
-@media screen and (min-width: 1000px;) {
+@media screen and (min-width: 1000px) {
   .contact_content {
     display: flex;
     position: relative;
