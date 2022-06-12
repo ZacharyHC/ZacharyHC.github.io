@@ -240,8 +240,8 @@ input[type=checkbox]:checked ~ section {
 .styled_photo2 {
   border: 15px ridge rgb(69, 88, 88);
   filter: drop-shadow(0 0 1em rgb(97, 99, 90));
-  max-width: 20vw;
-  max-height: 20vw;
+  max-width: 40vw;
+  max-height: 40vw;
   position: relative;
   top: 150px;
 }
